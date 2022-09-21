@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/styles-advanced-search.css">
+        <title>Search</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <ul class="header-ul">
+                    <li><a href="index.html">Search</a></li>
+                    <li><a href="image-search.html">Image Search</a></li>
+                </ul>
+            </header>
+
+            <div class="page-description">
+                <label style="margin-left:10px">Advanced Search</label>
+            </div>
+
+            <div class="page-description-bottom-border"></div>
+
+            <div class="container-advanced">
+                <form action="https://www.google.com/search">
+                <!-- name of textboxes, top to bottom: as_q, as_epq, as_oq, as_eq -->
+                    <p>Find pages with...</p>
+                    <div class="container-label"></div>
+
+                    <div class="container-grid">
+                        <div class="container-label">
+                            <label for="text1">all these words:</label>
+                        </div>
+                        <div class="container-textbox-advanced">
+                            <input type="text" name="as_q" id="text1">
+                        </div>
+                        <div class="container-label">
+                            <label for="text2">this exact word or phrase:</label>
+                        </div>
+                        <div class="container-textbox-advanced">
+                            <input type="text" name="as_epq" id="text2">
+                        </div>  
+                        <div class="container-label">
+                            <label for="text3">any of these words:</label>
+                        </div>
+                        <div class="container-textbox-advanced">
+                            <input type="text" name="as_oq" id="text3">
+                        </div>
+                        <div class="container-label">
+                            <label for="text4">none of these words:</label>
+                        </div>
+                        <div class="container-textbox-advanced">
+                            <input type="text" name="as_eq" id="text4">
+                        </div>
+
+                        <div class="container-label"></div>
+                        <div class="container-textbox-advanced">
+                            <input type="submit" value="Search">
+                        </div>
+                    </div>  
+                    
+                </form>              
+            </div>
+
+            <section class="container-empty">   
+            </section>
+
+            <footer>
+            </footer>
+        </main>
+
+
+
+        
+    </body>
+</html>
+
