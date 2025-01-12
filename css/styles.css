@@ -20,6 +20,8 @@ main {
 /* ------------------------------------------------------- header styles */
 
 header {
+    max-width: 96rem;
+    
     height: 60px;
     padding: 6px;
 
